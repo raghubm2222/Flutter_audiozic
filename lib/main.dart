@@ -1,6 +1,4 @@
-import 'dart:ui';
-import 'package:audiozic/pages/home_page.dart';
-import 'package:audiozic/pages/product_details_page.dart';
+import 'package:audiozic/pages/welcome.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +14,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Poppins',
         primarySwatch: MaterialColor(0xFF060DD9, color),
       ),
-      home: HomePage(),
+      home: WelcomePage(),
     );
   }
 }
